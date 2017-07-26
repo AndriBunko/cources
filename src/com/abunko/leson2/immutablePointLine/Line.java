@@ -7,14 +7,9 @@ public final class Line {
     private final Point start;
     private final Point end;
 
-    Line(Point start, Point end) {
+   public Line(Point start, Point end) {
         this.start = start;
         this.end = end;
-    }
-
-    public static void main(String[] args) {
-        Line line = new Line(new Point(2, 4), new Point(4, 1));
-        System.out.printf("%f", line.getLength());
     }
 
     public double getLength() {
