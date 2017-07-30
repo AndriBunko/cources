@@ -19,7 +19,7 @@ public class Runner {
         while (!b) {
             train.turnRight();
             count++;
-             if (train.isLightOn() == true) {
+            if (train.isLightOn() == true) {
                 train.lightOff();
                 result = count;
                 for (int i = 0; i < result; i++) {
@@ -33,7 +33,4 @@ public class Runner {
         }
         return result;
     }
-
-
-
 }
