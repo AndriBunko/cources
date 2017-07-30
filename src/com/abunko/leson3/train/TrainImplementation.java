@@ -30,7 +30,6 @@ public class TrainImplementation implements Train{
     public void turnRight() {
         if (position < length -1  ){
             position ++;
-
         }
         else {
             position = 0;
@@ -39,7 +38,6 @@ public class TrainImplementation implements Train{
 
     @Override
     public void lightOn() {
-
         railwayCarriages.get(position).setLightOn(true);
     }
 
