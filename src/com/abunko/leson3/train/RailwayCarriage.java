@@ -16,12 +16,12 @@ public class RailwayCarriage {
         return isLightOn;
     }
 
-    public boolean isLightOn() {
-        return isLightOn;
-    }
-
     public void setLightOn(boolean lightOn) {
         isLightOn = lightOn;
+    }
+
+    public boolean isLightOn() {
+        return isLightOn;
     }
 
 }
