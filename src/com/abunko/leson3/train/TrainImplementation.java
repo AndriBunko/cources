@@ -16,7 +16,6 @@ public class TrainImplementation implements Train{
         }
     }
 
-
     @Override
     public void turnLeft() {
         if (position > 0){

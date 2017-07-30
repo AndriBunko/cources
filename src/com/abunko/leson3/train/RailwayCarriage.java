@@ -20,13 +20,8 @@ public class RailwayCarriage {
         return isLightOn;
     }
 
-
     public void setLightOn(boolean lightOn) {
         isLightOn = lightOn;
-    }
-
-    public RailwayCarriage(boolean isLightOn) {
-        this.isLightOn = isLightOn;
     }
 
 }
