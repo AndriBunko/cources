@@ -56,8 +56,7 @@ public class TrainImplementation implements Train{
 
     @Override
     public boolean isLength(int expectedLength) {
-        if (expectedLength == this.length) return true;
-        else return false;
+        return  expectedLength == this.length ? true : false;
     }
 
     public int getLengs() {
