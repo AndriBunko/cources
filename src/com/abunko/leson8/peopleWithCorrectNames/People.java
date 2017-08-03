@@ -29,20 +29,4 @@ public class People {
         }
 
     }
-
-    public static void main(String[] args) {
-        People people = new People();
-        people.add(new Person(""));
-        people.add(new Person("ewfw"));
-        people.add(new Person(" "));
-        people.add(new Person("qqqq "));
-        people.add(new Person());
-
-        System.out.println(people);
-
-        people.removeNames();
-
-        System.out.println(people);
-
-    }
 }
