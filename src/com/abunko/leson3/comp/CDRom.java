@@ -1,7 +1,7 @@
 package com.abunko.leson3.comp;
 
 /**
- * Created by Джінжільой on 20.07.2017.
+ * Created by Andrew on 20.07.2017.
  */
 public class CDRom {
 
