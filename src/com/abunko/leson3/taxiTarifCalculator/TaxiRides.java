@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Andrew on 17.07.2017.
  */
 public class TaxiRides {
-    private ArrayList<TaxiRide> taxiRides = new ArrayList<>();
+    private final ArrayList<TaxiRide> taxiRides = new ArrayList<>();
 
     public long getPrice(Tariff tariff) {
         long price = 0;
