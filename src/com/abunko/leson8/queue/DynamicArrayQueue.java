@@ -98,7 +98,7 @@ public class DynamicArrayQueue<E> implements Queue<E> {
         int position = 0;
         @Override
         public boolean hasNext() {
-            return position < size ? true : false;
+            return position < size;
         }
 
         @Override
