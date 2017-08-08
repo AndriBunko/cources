@@ -1,5 +1,7 @@
 package com.abunko.leson9.uniqueSortedPeople;
 
+import java.util.Comparator;
+
 /**
  * Created by Andrew on 08.08.2017.
  */
@@ -15,7 +17,7 @@ public class Runner{
                 .addPerson(new Person("Pit",44));
 
         System.out.println(people);
-        System.out.println(people.sortPeople());
+        System.out.println(people.sortPeople((Person p1, Person p2 ) -> p1.compareTo(p2)));
 
     }
 }
