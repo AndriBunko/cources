@@ -16,11 +16,6 @@ public class People {
         return this;
     }
 
-    public Set<Person> sortPeople(){
-        Set<Person> treeSet = new TreeSet<>(people);
-        return treeSet;
-    }
-
     public List<Person> getPeople() {
         return people;
     }
