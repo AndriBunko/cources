@@ -9,16 +9,11 @@ import java.util.TreeSet;
  * Created by Andrew on 26.07.2017.
  */
 public class People {
-    private  List<Person> people = new ArrayList<>();
+    private final List<Person> people = new ArrayList<>();
 
     public People addPerson(Person person){
         people.add(person);
         return this;
-    }
-
-    public Set<Person> sortPeople(){
-        Set<Person> treeSet = new TreeSet<>(people);
-        return treeSet;
     }
 
     public List<Person> getPeople() {
