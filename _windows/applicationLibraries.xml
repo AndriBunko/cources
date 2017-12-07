@@ -1,4 +1,9 @@
 <application>
+  <component name="GwtSdkManager">
+    <gwt-sdk-list>
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/vaadin/vaadin-client/7.4.3" />
+    </gwt-sdk-list>
+  </component>
   <component name="libraryTable">
     <library name="Maven: mysql:mysql-connector-java:5.1.6">
       <CLASSES />
